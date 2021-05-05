@@ -16,7 +16,9 @@
 # print ('123 ->' + (a is b))
 
 lst = [1,2,3,4,5,['a','b','c','d']]
-for x in lst:
+for x in lst:    
     if isinstance(x, list):
         for y in x:
             print(y)
+    else:
+        print (x)
