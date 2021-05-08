@@ -13,6 +13,7 @@ namabulan = ['januari', 'februari', 'maret', 'april', 'mei', 'juni',
 indexBul = int(input('masukkan index bulannya: '))
 
 # olah data bulan input
+# batasi input dari 1 sampe 12
 if indexBul > 0 and indexBul < 13:
     print ('yaitu bulan %s' %namabulan[indexBul - 1])
 else:
